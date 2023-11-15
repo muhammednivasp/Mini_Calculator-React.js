@@ -1,0 +1,102 @@
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calculator-section {
+    margin-top: 100px;
+    width: 30%;
+    outline: 12px solid black;
+  }
+  
+  .calculator .display {
+    width: 100%;
+    height: 50px;
+    outline: 12px solid black;
+    background-color: #fdd835;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .calculator .buttons {
+    margin-top: 12px;
+    background-color: #212121;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+  }
+  
+  .calculator .buttons button {
+    border: 1px solid #424242;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #424242;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .calculator .buttons button:hover {
+    background-color: #616161; 
+  }
+  
+  .calculator .buttons .clear {
+    color: #ff9800; 
+    font-size: 20px;
+    border: 1px solid #424242; 
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .calculator .buttons .clear:hover {
+    background-color:red; 
+  }
+  
+  .calculator .buttons .operator {
+    color: #ff9800; 
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .calculator .buttons .operator:hover {
+    background-color: cadetblue; 
+  }
+  
+  .calculator .buttons .decimal {
+    border: 1px solid #424242;
+    font-weight: bold;
+    /* padding: 20px; */
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #424242; 
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .calculator .buttons .decimal:hover {
+    background-color: #616161; 
+  }
+  
+  .calculator .buttons .equal {
+    color: #ff9800; 
+    font-size: 20px;
+    /* padding: 15px; */
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    cursor: pointer;
+  }
+  
+  .calculator .buttons .equal:hover {
+    background-color:cadetblue; 
+  }
+  
